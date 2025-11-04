@@ -66,7 +66,7 @@ body {
 }
 
 .about-section, .services-section, .structure-section, .contact-section {
-    background-color: #EFEBCE;
+    background-color: #001d3d;
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 8px;
@@ -86,7 +86,7 @@ h2 {
     max-width: 600px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #001d3d;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -113,7 +113,7 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: #007bff;
+    background-color: #001d3d;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -178,3 +178,4 @@ em {
     margin-top: 2rem;
 
 }
+
