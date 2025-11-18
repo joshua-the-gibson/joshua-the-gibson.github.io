@@ -16,17 +16,26 @@ body {
     background-color: #172121;
     padding: 1rem 0;
     position: sticky;
-    top: 1;
-    box-sizing: border-box;
+    top: 0;
     border-radius: 30px 50px;
     box-shadow: 5px 5px #444554;
+    min-width: 90%;
+    width: 100%;
 }
+
 
 .main-nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.main-nav li {
+    min-width: fit-content;
 }
 
 .main-nav a {
@@ -34,6 +43,7 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: color 0.3s ease;
+    white-space: nowrap;
 }
 
 .main-nav a:hover {
