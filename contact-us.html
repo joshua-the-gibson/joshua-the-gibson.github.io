@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <!-- Navigation Section -->
+        <div class="nav-container">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </div>
+
+            <!-- Header Section -->
+    <header class="main-header">
+        <h1>Contact Us</h1>
+    </header>
+
+        <!-- Main Section -->
+        <main class="contact-form">
+            <form id="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required minlength="2">
+                </div>
+                <div class="form-group">
+                    <label for="discord">Discord ID:</label>
+                    <input type="discord" id="discord" name="discord" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Please select a subject</option>
+                        <option value="new">New Player</option>
+                        <option value="returning">Returning Player</option>
+                        <option value="veteran">Veteran RPer</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Short Description of your Character:</label>
+                    <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Subscribe to our newsletter
+                    </label>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </main>
+
+
+
+
+        <!-- Footer Section -->
+   <footer class="main-footer">
+    <p>&copy; 2025 My Website</p>
+   </footer>
+</body>
+</html>
